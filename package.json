@@ -18,6 +18,7 @@
 		"url": "https://github.com/WordPress/twentytwentyfour/issues"
 	},
 	"devDependencies": {
+		"@wordpress/env": "^10.4.0",
 		"@wordpress/stylelint-config": "^20.0.2",
 		"stylelint": "^14.10.0"
 	},
@@ -25,6 +26,7 @@
 		"lint:css": "stylelint **/*.css -i .gitignore",
 		"lint:css:fix": "stylelint **/*.css -i .gitignore --fix",
 		"lint:php": "./vendor/bin/phpcs",
-		"lint:php:fix": "./bin/phpcbf.sh"
+		"lint:php:fix": "./bin/phpcbf.sh",
+		"wp-env": "wp-env"
 	}
 }

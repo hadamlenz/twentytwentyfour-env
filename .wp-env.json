@@ -1,0 +1,14 @@
+{
+    "core": "WordPress/WordPress#6.6.1",
+    "themes": [ "." ],
+    "env": {
+		"development": {
+			"port": 8881,
+			"mysqlPort": 51600
+		},
+		"tests":{
+			"port": 8882,
+            "mysqlPort": 51601
+		}
+	}
+}

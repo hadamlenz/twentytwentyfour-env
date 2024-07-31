@@ -3,12 +3,12 @@
     "themes": [ "." ],
     "env": {
 		"development": {
-			"port": 8881,
-			"mysqlPort": 51600
+			"port": 8883,
+			"mysqlPort": 51603
 		},
 		"tests":{
-			"port": 8882,
-            "mysqlPort": 51601
+			"port": 8884,
+            "mysqlPort": 51604
 		}
 	}
 }
